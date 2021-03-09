@@ -83,3 +83,19 @@
     - Be aware of surroundings
     - Use privacy filters: *blacks side vision*
     - Keep the monitor out of sight like hallways or windows
+
+### Hoaxes
+- **Hoax**: A threat that doesn't actually exist!
+- Consumes lots of resources
+    - Forwarded messages, printed memorandums...
+    - Often an email, or facebook post etc.
+- Some hoaxes will take money
+- A hoax about a virus (makes you believe you are infected) can waste as much time as a regular virus
+- De-hoaxing
+    - It's the Internet, believe no one
+    - Consider the source
+    - Cross reference:
+        - https://hoax-slayer.net
+        - https://snopes.com
+    - Spam filters can help
+    - If it sounds too good to be true...
