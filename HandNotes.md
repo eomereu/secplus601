@@ -1,5 +1,6 @@
 # CompTIA Security+ SY0-601
-## 1.1 Phishing
+## 1.1
+### Phishing
 - Typosquatting
     - URL Hijacking
     - Prepending
@@ -36,3 +37,25 @@
     - Family and friends
 - **Spear Phishing**: *Targeted phishing with inside info*
 - **Whaling**: *Targeted (spear) phishing with the possibility of a large catch like CEO, CFO*
+
+### Impersonation
+- The Pretext
+- **Impersonation**: *Attackers pretend to be someone they aren't*
+    - Use the details from recon
+    - Attack someone with a higher rank
+    - Throw tons of technical details around
+    - Be friendly
+- **Eliciting Information**: *Extracting info*
+    - The victim doesn't even realize
+    - Often seen with Vishing
+    - Well documented psychological techniques
+- **Identity Fraud**
+    - Your identity can be used by others
+- **Credit Card Fraud**: Opening an account in your name or using your credit card info
+- **Bank Fraud**: Attackers gain acces to your account or open a new one
+- **Loan Fraud**: Your info is used for a loan or lease
+- **Government Benefits Fraud**
+- Protecting your info
+    - Never volunteer info
+    - Don't disclose personal details
+    - Always verify, by a 3rd party etc
