@@ -59,3 +59,13 @@
     - Never volunteer info
     - Don't disclose personal details
     - Always verify, by a 3rd party etc
+
+### Dumpster Diving
+- Garbage bin
+- A very effective way to get useful info
+- Legal in the US
+- If it's in garbage then nobody owns it
+- Protect your rubbish
+    - Fence and lock
+    - Shred docs
+    - Governments burn good stuff
