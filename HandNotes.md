@@ -69,3 +69,17 @@
     - Fence and lock
     - Shred docs
     - Governments burn good stuff
+
+### Shoulder Surfing
+- Simply looking over your shoulder to your screen or your keyboard while typing
+- Curiosity, industrial espionage, competitive advantage
+- Easy to do:
+    - Airports, Flights
+    - Hallway-facing monitors
+    - Coffee shops
+    - Binoculars, telescopes
+    - Webcam monitoring
+- Preventing:
+    - Be aware of surroundings
+    - Use privacy filters: *blacks side vision*
+    - Keep the monitor out of sight like hallways or windows
