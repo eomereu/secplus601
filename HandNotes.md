@@ -130,7 +130,7 @@
     - Resource utilization
     - Storage costs
     - Managing the spam
-- Mail gateways
+- Mail gateways: <img src="https://i.ibb.co/xHFpcDk/Mail-Gateway.png">
     - Stop it at the gateway before it reaches the user
     - On-site or cloud-based
 - Identifying spam:
@@ -139,3 +139,16 @@
     1. **rDNS - reverse DNS**: *Block email where the sender's domain doesn't match the IP*
     1. **Tarpitting**: *Intentionally slow down the server conversation*
     1. **Recipient filtering**: *Block mails not adressed to a valid recipient email address*
+
+### Influence Campaigns
+- Hacking public opinion
+- **Influence campaigns**: Sway public opinion on political and social issues
+- **Nation-state actors**: Divide, distract and persuade
+- **Advertising**: Buy a voice
+- **Social media**: Creating, sharing, liking; amplification
+- Influencing Process: <img src="https://i.ibb.co/M6QP6M1/The-Influencing-Process.png">
+- Hybrid Warfare:
+    - Military strategy
+    - Cyberwarfare: *Attack an entity with technology*
+    - Influencing foreign election
+    - "Fake news"
