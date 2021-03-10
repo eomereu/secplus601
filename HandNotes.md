@@ -99,3 +99,20 @@
         - https://snopes.com
     - Spam filters can help
     - If it sounds too good to be true...
+
+### Watering Hole Attacks
+- What if the network is totally secure?
+    - Can't plug in USB
+    - Can't open attachments
+    - Can't click open links
+- As a response attackers developed a new way:
+    - **Watering Hole**: The third party that attackers await you/your employees to visit and get infected
+    - Determine which website victims go:
+        - Educated guess: Coffe shops etc.
+        - Industry related sites
+- An example of a water hole attack:
+    - Jan 2017: Just infected specific IPs like banks etc.
+- Watching the water hole:
+    - **Defense-in-depth**: Layered defense
+    - Firewalls and IPS
+    - Anti-virus/malware signature updates
