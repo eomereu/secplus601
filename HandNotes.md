@@ -173,3 +173,27 @@
     - Once the macro runs it collects stored credentials and sends to the attacker
     - User has no idea, everything happens in the background
     - Anti-virus/malware can detect and prevent!
+
+### Principles of Social Engineering
+- Constantly changing
+- May involve multiple people
+- May be in person or electronic
+    - Phone calls from an aggressive "customer"
+    - Funeral notification of a friend or associate
+1. **Authority**
+    - Attacker seems to be in charge, has authority
+1. **Intimidation**
+    - If no help, then trouble
+1. **Consensus/Social Proof**
+    - Convince based on the expected
+    - Your co-worker has done this last week
+1. **Scarcity**
+    - The situation won't be this way too long
+    - Take action before time expires
+1. **Urgency**
+    - Works alongside Scarcity
+    - Act quickly, don't think
+1. **Familiarity/Liking**
+    - Someone you know; we have common friends
+1. **Trust**
+    - Someone who is safe like from IT, help desk etc.
