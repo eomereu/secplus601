@@ -116,3 +116,26 @@
     - **Defense-in-depth**: Layered defense
     - Firewalls and IPS
     - Anti-virus/malware signature updates
+
+### Spam
+- Unsolicited messages; better to stop before it reachers the user's mail box
+- Emails, forums etc.
+- **SPIM**: Spam over Instant Messaging
+- Various content:
+    - Ad
+    - Non-commercial
+    - Phishing attempts
+- Significant technology issue:
+    - Security concerns
+    - Resource utilization
+    - Storage costs
+    - Managing the spam
+- Mail gateways
+    - Stop it at the gateway before it reaches the user
+    - On-site or cloud-based
+- Identifying spam:
+    1. **Allowed list**
+    1. **SMTP standatds checking**: *Block anything that doesn't follow RFC standards*
+    1. **rDNS - reverse DNS**: *Block email where the sender's domain doesn't match the IP*
+    1. **Tarpitting**: *Intentionally slow down the server conversation*
+    1. **Recipient filtering**: *Block mails not adressed to a valid recipient email address*
