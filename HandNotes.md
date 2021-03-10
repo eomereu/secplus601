@@ -152,3 +152,24 @@
     - Cyberwarfare: *Attack an entity with technology*
     - Influencing foreign election
     - "Fake news"
+
+### Other Social Engineering Attacks
+- **Tailgating**: Use an authorized person to gain authorized access
+    - 3rd party with a legitimate reason
+    - Once inside, little to stop
+- Preventing:
+    - Visitor policy: Identifying anyone, like via badges and/or giving someone part of the organization with them
+    - One scan, one person
+    - Access Control Vestibule / Airlock
+    - Don't be afraid to ask
+- **Invoice Scams**
+    - Starts with a bit of spear phishing; attackers know who pays the bills
+    - Attacker sends a fake invoice; domain renewal, toner cartridges etc. from: address is a spoofed version of the CEO
+    - Accounting pays the invoice by skipping regular checks coz it was from the CEO after all
+    - Might also include a pay-link
+- **Credential Harvesting**
+    - Collecting local passwords
+    - Victim receives an email with a malicious Word doc etc
+    - Once the macro runs it collects stored credentials and sends to the attacker
+    - User has no idea, everything happens in the background
+    - Anti-virus/malware can detect and prevent!
