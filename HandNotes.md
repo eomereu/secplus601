@@ -228,3 +228,31 @@
     - Worm
     - Keep the OS up-to-date
     - Keep the apps up-to-date
+
+### Viruses and Worms
+1. Virus
+- Malware that can replicate it self
+> It needs the user to execute a program to start the replicaton process!
+- Can use **the OS** or **the Network** to replicate itself
+- May or may not cause problems
+- Anti-virus is benefical
+- Keep the signatures of anti-virus updated
+  
+1. 1. **Program Viruses**: They are part of the app
+   2. **Boot Sector Viruses**: Exist in the boot secture
+   3. **Script Viruses**: OS or browser-based
+   4. **Macro Viruses**: Runs inside of an app, *common in Microsoft Office*
+   5. **Fileless Virus**: Never loads it as a file onto the system. 
+   - A stealth attack.
+   - Does a good job of avoiding anti-virus detection
+   - Operates solely in memory
+   - Never installed in a file or app<br>
+   <img src="https://i.ibb.co/mv6c1dH/Fileless-Virus.png">
+
+2. Worm
+- Malware that self-replicates
+> Doesn't need your interaction to run!
+- Uses network as a transmission medium
+- Self-propagades and spread quickly
+- Can take over systems very quickly
+- Firewalls and IDS/IPS can mitigate many worm infestations; doesn't help much though once the worm is inside<br><img src="https://i.ibb.co/pnvmy6T/Wannacry-Worm.png">
