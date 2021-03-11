@@ -130,7 +130,7 @@
     - Resource utilization
     - Storage costs
     - Managing the spam
-- Mail gateways: <img src="https://i.ibb.co/xHFpcDk/Mail-Gateway.png">
+- Mail gateways: <br><img src="https://i.ibb.co/xHFpcDk/Mail-Gateway.png">
     - Stop it at the gateway before it reaches the user
     - On-site or cloud-based
 - Identifying spam:
@@ -146,7 +146,7 @@
 - **Nation-state actors**: Divide, distract and persuade
 - **Advertising**: Buy a voice
 - **Social media**: Creating, sharing, liking; amplification
-- Influencing Process: <img src="https://i.ibb.co/M6QP6M1/The-Influencing-Process.png">
+- Influencing Process: <br><img src="https://i.ibb.co/M6QP6M1/The-Influencing-Process.png">
 - Hybrid Warfare:
     - Military strategy
     - Cyberwarfare: *Attack an entity with technology*
@@ -197,3 +197,34 @@
     - Someone you know; we have common friends
 1. **Trust**
     - Someone who is safe like from IT, help desk etc.
+
+## 1.2
+### An Overview of Malware
+- **Malware**: *Malicious Software*
+- Gather info
+- Key strokes, screenshots
+- Participate in a group and controlled over 'net
+- Show you ads, attacker makes big money
+- Viruses and worms
+    - Encrypt all your data; you should pay the attacker to get the decryption key
+- Malware types and methods:
+    1. Viruses
+    1. Crypto-malware
+    1. Ransomware
+    1. Worms
+    1. Trojan Horse
+    1. Rootkit
+    1. Keylogger
+    1. Adware/Spyware
+    1. Botnet
+- How get infected:
+    - A worm gets in via a vulnerability
+    - Installs malware for a remote backdoor access
+    - Bot may be installed later
+- What to do:
+    - Don't click links *(inside of an email especially)*
+    - Web page pop-up
+    - Drive-by download
+    - Worm
+    - Keep the OS up-to-date
+    - Keep the apps up-to-date
