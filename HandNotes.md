@@ -256,3 +256,27 @@
 - Self-propagades and spread quickly
 - Can take over systems very quickly
 - Firewalls and IDS/IPS can mitigate many worm infestations; doesn't help much though once the worm is inside<br><img src="https://i.ibb.co/pnvmy6T/Wannacry-Worm.png">
+
+3. Ransomware
+- The data is valuable:
+    - Personal
+    - Organizational *(PII:Personally Identifiable Information)*
+    - Financial info
+- The type of getting your data away and requiring you to pay to get back the data called as **Ransomware**
+- May be a fake hoax also *(locked by police etc)*
+- Just blocks you to reaching the data by an interface
+- Denies access to a computer system or data until a ransom is paid.
+- It can be removed by security professionals
+
+4. Crypto-malware
+- A new generation of ransomware
+- A malicious program that encrypts programs and files on the computer in order to extort money from the user.
+- Your data is now really unavailable until you pay
+- Untraceable payment system
+- An unfortunate use of public-key cryptography
+
+- Protecting:
+    - Always have an offline backup
+    - Keep the OS updated
+    - Keep the apps updated
+    - Keep anti-virus signatures updated
