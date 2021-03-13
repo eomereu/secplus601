@@ -295,7 +295,8 @@
     - Overly aggresive browser toolbar
     - A backup utility that displays ads
     - Browser search engine hijacker
-    > ***Backdoors:***
+    <br><br>
+    ***Backdoors:***
 <br>- Backdoors are the rear gates opened by malwares
 <br>- Once a backdoor is opened it is used by multiple types of malwares
 <br>- Some softwares include a backdoor; *old linux kernel, some bad software*
@@ -327,3 +328,27 @@
     - Some AV/AM that can identify rootkits
     - Use a specific rootkit remover
     - **Secure boot with UEFI**: This option will look for any changed part in the kernel and not run that part so can prevent rootkits
+
+8. Spyware
+    1. Adware
+    - Everywhere ad, pop-up with pop-up
+    - May cause performance issues
+    - Installed accidentally, may be included with other software installations
+    - Be careful about softwares that claims to remove hardware, especially if learned via a pop-up, coz it may be itself an adware.
+
+    2. Spyware
+    - Spyware spies on you; ads, inedtity theft, affiliate fraud
+    - Can trick into installing, peer to peer, fake security software
+    - Browser tracking
+    - Keylogging
+    <br><br>
+    - There are lots of malwares and adwares because:
+        - Money
+        - Your seeing is valuable
+        - Your computer time and bandwith valuable
+        - Your bank account is valuable
+    - Protecting:
+        - Up-to-date AV/AM
+        - Know what you're installing
+        - Backup
+        - Run some scans; ***Malwarebytes***
