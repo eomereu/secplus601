@@ -313,3 +313,17 @@
     - Don't run an unknown software
     - Keep everything updated
     - Have a backup
+
+7. Rootkits
+- Originally a Unix technique
+- Modifies core system files, part of the kernel
+- Can be invisible to OS, won't see in task manager
+- Also invisible to AV
+- Rootkits are generally combined with a malware
+    > Zeus/Zbot malware + Necrus rootkit (kernel-level driver)
+    - Zeus/Zbot famous for cleaning bank accounts
+    - Necrus makes sure you can't delete Zeus or even cannot stop the process
+- Finding and removing rootkits:
+    - Some AV/AM that can identify rootkits
+    - Use a specific rootkit remover
+    - **Secure boot with UEFI**: This option will look for any changed part in the kernel and not run that part so can prevent rootkits
