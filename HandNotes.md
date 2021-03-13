@@ -229,7 +229,7 @@
     - Keep the OS up-to-date
     - Keep the apps up-to-date
 
-### Viruses and Worms
+### Malware Types
 1. Virus
 - Malware that can replicate it self
 > It needs the user to execute a program to start the replicaton process!
@@ -280,3 +280,36 @@
     - Keep the OS updated
     - Keep the apps updated
     - Keep anti-virus signatures updated
+
+5. Trojan
+- Software that pretends to be something else, so it can conquer the computer
+- Doesn't care about replicating
+- Circumvents existing security
+- Better ones avoid and disable AV
+- Once inside, it has free reign and open the doors to additional malwares
+- **PUP (Potentially Unwanted Program)**: One type of software commonly downloaded
+    - Identified by AV
+    - May not be malicious but undesirable
+    - Often installed along with other software
+- PUP Examples:    
+    - Overly aggresive browser toolbar
+    - A backup utility that displays ads
+    - Browser search engine hijacker
+    > ***Backdoors:***
+<br>- Backdoors are the rear gates opened by malwares
+<br>- Once a backdoor is opened it is used by multiple types of malwares
+<br>- Some softwares include a backdoor; *old linux kernel, some bad software*
+
+6. RATs *(Remote Access Trojans)*
+- Remote administration tool
+- The ultimate backdoor
+- Malware installs the server/service/host
+- Control a device:
+    - Key logging
+    - Screenshots/records taking
+    - Copy files
+    - Embed more malware
+- Protecting
+    - Don't run an unknown software
+    - Keep everything updated
+    - Have a backup
