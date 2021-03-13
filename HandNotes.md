@@ -237,8 +237,8 @@
 - May or may not cause problems
 - Anti-virus is benefical
 - Keep the signatures of anti-virus updated
-  
-1. 1. **Program Viruses**: They are part of the app
+- Types of viruses:
+   1. **Program Viruses**: They are part of the app
    2. **Boot Sector Viruses**: Exist in the boot secture
    3. **Script Viruses**: OS or browser-based
    4. **Macro Viruses**: Runs inside of an app, *common in Microsoft Office*
@@ -329,13 +329,12 @@
     - Use a specific rootkit remover
     - **Secure boot with UEFI**: This option will look for any changed part in the kernel and not run that part so can prevent rootkits
 
-8. Spyware
-    1. Adware
+8.  1. Adware
     - Everywhere ad, pop-up with pop-up
     - May cause performance issues
     - Installed accidentally, may be included with other software installations
     - Be careful about softwares that claims to remove hardware, especially if learned via a pop-up, coz it may be itself an adware.
-
+    <br><br>
     2. Spyware
     - Spyware spies on you; ads, inedtity theft, affiliate fraud
     - Can trick into installing, peer to peer, fake security software
@@ -352,3 +351,26 @@
         - Know what you're installing
         - Backup
         - Run some scans; ***Malwarebytes***
+
+9.  1. Bots
+    - Robots
+    - Once infected then PC is a bot
+    - Via Trojan horse, run a program seems to be legit, OS or app vulnerability
+    - A day of a bot:
+        - Sit around
+        - Check with the Command and Control (C&C) server
+        - Wait for instructions
+    2. Botnets
+    - A group of bots working together
+    - Their expected actions:
+        - **Distributed Denial of Service (DDoS)**
+        - Relay spam
+        - Proxy network traffic
+        - Distributed computing tasks
+        - May be rented
+    - Live botnet map: <br><img src="https://i.ibb.co/CKv65wJ/Live-Botnet-Map.png"><br>https://map.lookingglasscyber.com/
+    <br><br>
+    - Stopping the bot:
+        - Prevent the initial infection, *via OS patches and AV signature updates*
+        - Identifying an existing infection, *on-deman scans, netwok monitoring*
+        - Prevent command and control, *block at the firewall, identify at the workstation with a host-based firewall or host-based IPS*
