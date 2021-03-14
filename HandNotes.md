@@ -391,3 +391,46 @@
     - **Formal change control:** *Checking if any unplanned changes are made within the system*
     - **Electronical monitoring:** *Alert on changes, host-based intrusion detection, Tripwire etc.*
     - **Constant auding:** *An administrator can circumvent existing systems*
+
+### Password Attacks
+- Attackers love the apps that store passwords as a plaintext
+- Do not store passwords as plaintext!
+- If an app detected like this, stop using it.
+- **Hashing a password**:
+    - Hashes represent data as a fixed-length string of text; *a message digest or fingerprint*
+    - Hashes will not have a collision, they are all unique for different inputs
+    > Hashing is a one-way trip! Impossible to recover the original message from the digest.
+    - **SHA-256 hash** i.e.; *used in many apps*<br><img src="https://i.ibb.co/jwLfyWL/SHA256.png">
+    - A sample password file:<br><img src="https://i.ibb.co/h9SxkHP/Password-File.png" alt="Password-File">
+1. **Spraying Attack**:
+    - Instead of brute forcing the hash to determine what the original password might have been some attacker use spraying attack.
+    - A spraying attack avoids the results of a locked account caused by trying the wrong password over and over again. He simply just tries as times to prevent locking out, like 2 or 3 times.
+    - There are most commonly used passwords: https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
+    - Attack an account with the top three (or more) passwords; *if no success move to the next user; no lockouts, no alarms, no alerts*
+2. **Brute Force Attack**
+    - Try every possible combination
+    - This might take time
+    - Until the hashes are matched...
+    1. Brute Force - Online
+        - Keep trying the login process
+        - Very slow
+        - Most accounts will lockout after a number of failed attempts
+    2. Brute Force - Offline
+        - Obtain the list of users and hashes
+        - Calculate a password hash, compere it to a stored hash
+        - Large computaitonal resource required
+ 3. **Dictionary Attack**
+    - Instead of going through every possible combination of letters and numbers, attacker uses a dictionary to try common words.
+    - Many common wordlists are available online, customized by language or line of work
+    - The password crackers can substitude letters
+    - **Distributed cracking**: *Multiple systems used for calculations*
+    - **GPU cracking**: *The power of GPUs are used for calculations*
+- **Rainbow Table**: A database where all tried hashees are stored to be used in the future. A database contains a massive number of hashes that created earlier.
+    - Remarkable speed increase
+    - Need different tables for different hashing methods
+- **Adding some *salt***:
+    - **Salt**: Random data added to a password when hashing
+    - Every user gets their own random salt; it is commonly stored with the password
+    - Rainbow tables won't work with **salted hashes**
+    - Slows things down however won't stop reverse engineering<br><img src="https://i.ibb.co/NrnH6SR/Salted-Hash.png" alt="Salted-Hash">
+- When the hashes get out:<br><img src="https://i.ibb.co/nQ6HrMH/When-hashes-get-out.png" alt="When-hashes-get-out">https://haveibeenpwned.com/
