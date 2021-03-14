@@ -374,3 +374,20 @@
         - Prevent the initial infection, *via OS patches and AV signature updates*
         - Identifying an existing infection, *on-deman scans, netwok monitoring*
         - Prevent command and control, *block at the firewall, identify at the workstation with a host-based firewall or host-based IPS*
+
+### Logic Bombs
+- A logic bomb attack occurs when a seperate event occures.
+- Waits for a predefined event:
+    - **Time bomb**
+    - **User event**
+- Difficult to identify
+- Difficult to recover if it goes off, because most of the logic bombs deletes itself after being executed.
+- Two examples:
+    - South Korea, 2013: Deleting master boot records and rebooting systems
+    - Kiev, Ukraine, 2016: Disabling electrical circuits. Costumized for SCADA *(Supervisory Control and Data Acquisition)* networks
+- Preventing:
+    - Difficult to recognize
+    - No predefined signatures
+    - **Formal change control:** *Checking if any unplanned changes are made within the system*
+    - **Electronical monitoring:** *Alert on changes, host-based intrusion detection, Tripwire etc.*
+    - **Constant auding:** *An administrator can circumvent existing systems*
