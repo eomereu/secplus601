@@ -419,7 +419,7 @@
         - Obtain the list of users and hashes
         - Calculate a password hash, compere it to a stored hash
         - Large computaitonal resource required
- 3. **Dictionary Attack**
+3. **Dictionary Attack**
     - Instead of going through every possible combination of letters and numbers, attacker uses a dictionary to try common words.
     - Many common wordlists are available online, customized by language or line of work
     - The password crackers can substitude letters
@@ -434,3 +434,34 @@
     - Rainbow tables won't work with **salted hashes**
     - Slows things down however won't stop reverse engineering<br><img src="https://i.ibb.co/NrnH6SR/Salted-Hash.png" alt="Salted-Hash">
 - When the hashes get out:<br><img src="https://i.ibb.co/nQ6HrMH/When-hashes-get-out.png" alt="When-hashes-get-out">https://haveibeenpwned.com/
+
+### Physical Attacks
+1. Malicious USB Cable
+    - Looks like a normal one but has additional electronics inside
+    - OS identifies it as **HID (Human Interface Device)** like keyboard, mouse.
+    - A HID doesn't require any additional permissions
+    - Once connected it takes over and may start downloading malware
+    - So don't just plug in any USB cable
+2. Malicious Flash Drive
+    - Especially be careful about free ones!
+    - May seem or even function as a normal flash drive
+    - Older OSs would automatically run files on a flash drive but this is disabled or removed by default
+    - However it may introuduce itself as HID like the malicious USB cable
+    - Doing so, it may start a command prompt and type anything without your intervention
+    - Attacker might put malware inside the files you've put on the flash drive
+    - Can be configured as a boot device and after a reboot it may infect the system
+    - Acts as an Ethernet adapter:
+        - Redirects or modifies Internet traffic requests
+        - Acts as a wireless gateway for other devices
+        - So attacker can use your PC as a jump point to your internal network
+3. Skimming
+    - Stealing credit card information usually during a normal transaction
+        - Copy data from the magnetic stripe
+        - Or from the computer system that the card is plugged into
+    1. ATM Skimming
+        - Includes a small camera that watches your PIN
+        - Always check card reader closely before using!
+    2. Card Cloning
+        - Create a duplicate of the card looks and feels like original
+        - Can only be used with the stripe; the chip cannot be cloned!
+        - Cloned gift cards are common; so once it's activated attacker uses it before the legitimate user
