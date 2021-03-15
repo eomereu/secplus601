@@ -465,3 +465,19 @@
         - Create a duplicate of the card looks and feels like original
         - Can only be used with the stripe; the chip cannot be cloned!
         - Cloned gift cards are common; so once it's activated attacker uses it before the legitimate user
+
+### Adversarial Artificial Inteligence
+- Machine learning
+- Requires tons of data
+- But once trained can capture or prevent lots of undesired situations or do amazing things
+- Poisoning the training data:
+    - Confuse the AI
+    - Attacker sends modified training data that causes AI to behave incorrectly
+    - *Microsoft AI Chatter Bot: **Tay***
+- As the AI may be poisoned and mischived during the training process via training data, it can also be fooled after the learning process is over. If attacker finds out the way it learned, he may slightly change the things to go through the AI
+- An AI that uses real-world information can release confidential information like SSNs etc by being fooled
+- Preventing:
+    - Secure the training data
+    - Cross check and verify it
+    - Constantly retrain with more and better data
+    - Train the AI with possible poisoning
