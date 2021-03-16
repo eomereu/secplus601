@@ -475,9 +475,24 @@
     - Attacker sends modified training data that causes AI to behave incorrectly
     - *Microsoft AI Chatter Bot: **Tay***
 - As the AI may be poisoned and mischived during the training process via training data, it can also be fooled after the learning process is over. If attacker finds out the way it learned, he may slightly change the things to go through the AI
-- An AI that uses real-world information can release confidential information like SSNs etc by being fooled
+- An AI that uses real-world information can release confidential information like SSNs etc by being fooled.
 - Preventing:
     - Secure the training data
     - Cross check and verify it
     - Constantly retrain with more and better data
     - Train the AI with possible poisoning
+
+### Supply Chain Attacks
+- **Supply Chain**: It is the chain of manufacturing of a prodcut from beginning to end. *Includes: raw materials, suplliers, manufacturers, distributors, customers, consumers*
+- Attackers can infect any step along the way; *people trust their suppliers...*
+- One exploit can infect the entire chain.
+- Target Corporation breach, Nov 2013:
+    - 40 million credit cards stolen
+    - Via a heating and AC firm technicians' VPN systems
+- **Supply Chain Cyber Security**:
+    - Can you trust your new server/switch/router/firewall/software
+- Use a small supplier base
+- Tighten control of vendors
+- Stricten controls over policies and procedures
+- Make sure the security is also a part of the entire plan
+- There must be a limit to trust
