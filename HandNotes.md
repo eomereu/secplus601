@@ -496,3 +496,30 @@
 - Stricten controls over policies and procedures
 - Make sure the security is also a part of the entire plan
 - There must be a limit to trust
+
+### Cloud-Based vs On-Premises Attacks
+- Two categories for IT security:
+    - Cloud-based
+    - On-premises
+- Cloud-based:
+    - Is centralized and costs less
+    - No dedicated hardware, no data center to secure
+    - A third-party handles everything
+- On-premises:
+    - Puts the security burden on the client
+    - Data center security and infrastructure costs
+- On-premises security:
+    - Customize your security posture; *full control*
+    - On-site IT team can manage security better; *Can ensure everything is secure*
+    - However can be expensive and difficult to staff
+    - Local team maintains uptime and availability; *system checks any time, no phone call for support*
+    - Security changes can take time; *new equipment, configurations, additional costs*
+- Cloud-based security:
+    - Data is in a secure environment; *No physical access*
+    - However third-party may have access to the data
+    - Cloud providers are managing large-scale security; *automated signature and security updates*
+    - Users must follow security best-pactices
+    - Limited downtime; *extensive fault tolerance*
+    - 7/24/365 monitoring
+    - Scalable security options; *one-click security deployments*
+    - However may not be as cutomizable as necessary 
