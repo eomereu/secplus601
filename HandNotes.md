@@ -523,3 +523,30 @@
     - 7/24/365 monitoring
     - Scalable security options; *one-click security deployments*
     - However may not be as cutomizable as necessary 
+
+### Cryptographic Attacks
+- Can we be sure that an encrypted file from source to destination, is really secure or changed somewhere between?
+- Although attacker doesn't know the decrypt key, they may break the safe
+- Finding ways to undo security:
+    - Many potential cryptographic shortcomings
+    - Is often the implementation
+1. **Birthday Attack**
+    - In a classroom sharing the same birthday scenario
+    - In digital world, this is called as *hash collision*
+    - **Hash collision** is the same hash value for two different plaintexts; *finding a collision through brute force*
+    - The attacker will generate multiple versions of plaintext to match the hashes
+    - Hash digests supposed to be unique
+    - Different input data should never create the same hash
+    - **MD5** *(Message Digest Algorithm 5)*:
+        - First published in 1992
+        - Collisions identified in 1996<br><img src="https://i.ibb.co/zhWLDWH/MD5-Collision.png">
+    - It may be done to create a legitimate seen CA certificates!
+
+2. **Downgrade Attack**
+- Instead of using good encryption, make the communicators use something that's not that great by sitting in the middle
+- So force the systems to downgrade their security
+- 2014 - TLS *(Transport Layer Security)* Vulnerability POODLE *(Padding Oracle On Downgraded Legacy Encrypiton)*:
+    - **On-path attack**
+    - Force clients to fallback to SSL 3.0
+    - SSL 3.0 has significant cryptographic vulnerabilities
+    - Because of POODLE, modern browsers won't fallback to SSL 3.0
