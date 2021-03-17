@@ -550,3 +550,19 @@
     - Force clients to fallback to SSL 3.0
     - SSL 3.0 has significant cryptographic vulnerabilities
     - Because of POODLE, modern browsers won't fallback to SSL 3.0
+
+## 1.3
+### Privilege Escalation
+- Gain higher-level access to a system,
+    - Exploit vulnerability
+    - Might be a bug or design flaw
+- Simply means more capabilities
+- These are high-priority vulnerability patches
+- **Horizontal Escalation**: User A can access user B resources
+- Mitigating:
+    - Patch quickly
+    - Update AV/AM
+    - **Data Execution Prevention**: Only data in executable areas can run; *Vulnerabilities that try to run an application from the data section of the memory would be blocked*
+    - **Address Space Layour Randomization**: Prevent a buffer overrun at a known memory address
+- CVE-2020-1530: Windows Remote Access Elevation of Privilege vulnerability:
+    - Attacker would execute a program on a victim computer
