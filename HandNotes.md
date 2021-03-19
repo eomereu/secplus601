@@ -566,3 +566,35 @@
     - **Address Space Layour Randomization**: Prevent a buffer overrun at a known memory address
 - CVE-2020-1530: Windows Remote Access Elevation of Privilege vulnerability:
     - Attacker would execute a program on a victim computer
+
+### Cross-site Scripting (XSS)
+- Originally called cross-site because information from one site could be shared with another thanks to some browser security flaws
+- One of the most common vulnerability on web based apps
+- Malware that uses JavaScript
+1. Non-persistent (reflected) XSS Attack
+    - Website allows scripts to run in user input, *search box is the most common*
+    - Attacker emails a link that takes advantage of this vulnerability; *runs a script that sends credentials/session IDs/cookies to the attacker*
+    - Script embedded in URL executes in the victim's browser; *as if it came from the server*
+    - Attacker uses credentials/session IDs/cookies to steal victim's information
+    - By getting a **session ID** attacker can simply log in without any id or password
+2. Persistant (stored) XSS Attack
+    - Can be stored permenantly on the server.
+    - Anyone visiting that page would be running the script
+    - Often a website with posts on it
+    - Once the attacker posts the malicious message, everyone who reach to that particular post will also get that malicious script and run it on their local machine
+    - No specific target
+    - For social networking, this can spread quickly; *as it's shared among people, more people gonna see and so run the script*
+    - Example:
+        - June 2017, Subaru website
+        - Users get an authentication token
+        - It never expires *(which is bad)*!
+        - A valid token allowed any service request
+        - Adding email to your car/account
+        - Web front-end included XSS vulnerability
+        - A user clicks malicious link, and you have their token
+- Protecting:
+    - Never click a link especially within your emails
+    - Go to the specified website and log in manually
+    - Consider disabling JavaScript or use an extension to control
+    - Keep your browser and apps updated
+    - Validate input; *don't allow users to add their own scripts to an input field*
